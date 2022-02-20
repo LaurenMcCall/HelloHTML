@@ -1,8 +1,10 @@
 :root {
-  font: 16px / 1 sans-serif;
-  color: #061c44;
+  font: 18px / 2 'Poppins', sans-serif;
+  /* font: 18px / 1, 'Poppins', sans-serif; */
+  color: #000000;
   --bone: #f7fbf7;
   --pink: #ff73a8;
+  --hot-pink: #da0d5c;
   --lite-pink: #f9d1e0;
   --spring-green: #51fa9d;
   --dandelion: #f5a615;
@@ -17,18 +19,73 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 75%;
+}
+.border {
+  border: 5px solid #ff73a8;
+}
+header {
+  font: 16px / 2 'Fahkwang', sans-serif;
+  font-size: medium;
+  background-color: var(--pink);
+  padding-top: 2vh;
+  color: #000000;
+  text-align: center;
+}
+h1 {
+  /* background: transparent image('images/headerhousewives.jpg') no repeat; */
+  /* height: 10vh; */
+  /* color: var(--spring-green); */
+  /* background-color: var(--pink);
+  padding: 5vh 0vh 0vh 0vh;
 }
 
-h3 {
-  /* border: 1rem solid; */
+h2 {
+  /* background-color: var(--pink);
+  padding: 5vh 0vh 4vh 0vh; */
+}
+div {
   background-color: var(--pink);
   border-color: var(--pink);
 }
 
 body {
+  /* text-align: center; */
   margin: 0;
   min-height: 100%;
   background-color: var(--lite-pink);
   /* background-color: var(--bone); */
 }
+ul {
+  list-style-type: none;
+  text-align: center;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+p {
+  margin: 5%;
+}
+footer {
+  /* font: 16px / 2 'Abril-Fat', cursive; */
+  font-size: large;
+  background-color: var(--pink);
+  padding-top: 1vh;
+  color: #000000;
+  text-align: center;
+}
+a {
+  color: var(--pink);
+  text-decoration: none;
+}
+/* a:visited {
+  color: var(--pink);
+} */
+a:hover {
+  color: var(--hot-pink);
+}
+/* .link a:link {
+  color: var(--pink);
+} */
+/* .link a:hover {
+  color: var(--hot-pink);
+} */
